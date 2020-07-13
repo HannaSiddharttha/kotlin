@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="button_login">Sing In</string>
+    <string name="checkbox_sucursales" />
+    <string name="checkboxx_" />
+    <string name="checkbox_stock">Frutas y Verduras</string>
+</resources>
