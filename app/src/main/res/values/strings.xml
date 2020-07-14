@@ -4,4 +4,8 @@
     <string name="checkbox_sucursales" />
     <string name="checkboxx_" />
     <string name="checkbox_stock">Frutas y Verduras</string>
+    <string name="radiobuttonMujer">Mujer</string>
+    <string name="radioButtonHombre">Hombre</string>
+    <string name="button1">1</string>
+    <string name="textview_2">Texto 2</string>
 </resources>

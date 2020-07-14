@@ -49,4 +49,50 @@
         android:onClick="clickOnFruta"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <RadioGroup
+        android:id="@+id/radioGroupSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <RadioButton
+            android:id="@+id/radioButtonMujer"
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
+            android:onClick="sexoSeleccionado"
+            android:text="@string/radiobuttonMujer" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHombre"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:onClick="sexoSeleccionado"
+            android:text="@string/radioButtonHombre" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="72dp"
+        android:layout_height="42dp"
+        android:text="@string/button1"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_2"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
